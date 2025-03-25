@@ -1,5 +1,7 @@
 # msp
 
+# Already present features
+
 1. Avoid tolls
 2. Avoid Highways
 3. Avoid difficult intersections??
@@ -7,3 +9,8 @@
 5. Speed camera alert
 6. Notify event
 7. Nearby Parking
+
+
+# Possible new features:
+
+1. Suggest stand by location for taxi/uber/tvde
