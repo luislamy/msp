@@ -1,3 +1,10 @@
+# Basic Features 
+1. Register account
+2. Register type of vehicle
+3. Define route
+4. Alert if speed limit is violated
+5. Calculate estimated estimated time of arrival
+
 # 🔧 7 Features Existing in the System
 1. Real-time Traffic Updates  
    - Crowdsourced traffic info like jams, hazards, and closures.
