@@ -1,0 +1,129 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="RoBDvHYxKR69cgUxRB9M">
+    <mxGraphModel dx="1400" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d6nDWf26179W9ONTrDyo-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:7px;text-align:left;&quot;&gt;&lt;b&gt;req&lt;/b&gt;  ReqDiagram&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=110;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="60" width="855" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-5" value="" style="rounded=0;html=1;labelBackgroundColor=none;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=sysMLPackCont;startSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="d6nDWf26179W9ONTrDyo-12" target="d6nDWf26179W9ONTrDyo-21" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="300.0000000000001" as="sourcePoint" />
+            <mxPoint x="290" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-6" value="" style="rounded=0;html=1;labelBackgroundColor=none;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=sysMLPackCont;startSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="d6nDWf26179W9ONTrDyo-12" target="d6nDWf26179W9ONTrDyo-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="390.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-8" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-9" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="d6nDWf26179W9ONTrDyo-8">
+          <mxGeometry width="200" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-10" value="Alternative Route Suggestion" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="d6nDWf26179W9ONTrDyo-8">
+          <mxGeometry y="16" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-11" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="d6nDWf26179W9ONTrDyo-8">
+          <mxGeometry y="34" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-13" value="Id=&quot;ALT-1&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-8">
+          <mxGeometry y="42" width="200" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-12" value="text=&quot;The system shall suggest alternative routes to the user based on real-time traffic conditions and user preferences.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-8">
+          <mxGeometry y="58" width="200" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-15" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-16" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="d6nDWf26179W9ONTrDyo-15">
+          <mxGeometry width="200" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-17" value="Search Alternatives" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="d6nDWf26179W9ONTrDyo-15">
+          <mxGeometry y="16" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-18" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="d6nDWf26179W9ONTrDyo-15">
+          <mxGeometry y="34" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-19" value="Id=&quot;ALT-1.2&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-15">
+          <mxGeometry y="42" width="200" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-20" value="text=&quot;The system shall compute several alternative routes based on the data, distance, ETA, and list them.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-15">
+          <mxGeometry y="58" width="200" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-21" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-22" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="d6nDWf26179W9ONTrDyo-21">
+          <mxGeometry width="190" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-23" value="Retrieve Traffic Data" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="d6nDWf26179W9ONTrDyo-21">
+          <mxGeometry y="16" width="190" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-24" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="d6nDWf26179W9ONTrDyo-21">
+          <mxGeometry y="34" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-25" value="Id=&quot;ALT-1.1&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-21">
+          <mxGeometry y="42" width="190" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-26" value="text=&quot;The system shall retrieve real-time traffic data such as nearby accidents, traffic congestion, or road closures.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-21">
+          <mxGeometry y="58" width="190" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-27" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-28" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="d6nDWf26179W9ONTrDyo-27">
+          <mxGeometry width="200" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-29" value="Select Route" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="d6nDWf26179W9ONTrDyo-27">
+          <mxGeometry y="16" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-30" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="d6nDWf26179W9ONTrDyo-27">
+          <mxGeometry y="34" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-31" value="Id=&quot;ALT-1.3&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-27">
+          <mxGeometry y="42" width="200" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-32" value="text=&quot;The system shall allow the user to select the preferred route and change the current route to the selected one.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-27">
+          <mxGeometry y="58" width="200" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;endSize=5;" edge="1" parent="1" source="d6nDWf26179W9ONTrDyo-28" target="d6nDWf26179W9ONTrDyo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-36" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;Confirmation" style="shape=rect;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-38" value="&amp;lt;&amp;lt;deriveReq&amp;gt;&amp;gt;" style="endArrow=open;html=1;edgeStyle=none;endSize=12;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="d6nDWf26179W9ONTrDyo-36" target="d6nDWf26179W9ONTrDyo-32" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;startSize=6;endSize=5;" edge="1" parent="1" source="d6nDWf26179W9ONTrDyo-57" target="d6nDWf26179W9ONTrDyo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-57" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="130" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-58" value="&amp;lt;&amp;lt;NF requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="d6nDWf26179W9ONTrDyo-57">
+          <mxGeometry width="170" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-59" value="Performance" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="d6nDWf26179W9ONTrDyo-57">
+          <mxGeometry y="16" width="170" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-60" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="d6nDWf26179W9ONTrDyo-57">
+          <mxGeometry y="34" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-61" value="Id=&quot;ALT-NF-1&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-57">
+          <mxGeometry y="42" width="170" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="d6nDWf26179W9ONTrDyo-62" value="text=&quot;The system shall provide alternative route suggestion in a reasonable amount of time (5 seconds).&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="d6nDWf26179W9ONTrDyo-57">
+          <mxGeometry y="58" width="170" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
