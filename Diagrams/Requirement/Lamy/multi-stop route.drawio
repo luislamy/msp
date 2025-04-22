@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Página-1" id="xsrb5iJu20GzeG8j-Rk5">
-    <mxGraphModel dx="1071" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="217" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,58 +37,50 @@
         <mxCell id="GaqSNqj7muHd74XYTbJo-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Edit Route Stops&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;MSR-1.4&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-616035ec-7fff-21d3-86ee-f4348aab5200&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The user shall be able to reorder, add, or remove stops.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1950" y="663" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="xLiG28oJmYrXfKfle2dx-59" edge="1">
+        <mxCell id="xLiG28oJmYrXfKfle2dx-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1739.9999999999995" y="599.9999999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1440" y="790" />
               <mxPoint x="1740" y="790" />
             </Array>
+            <mxPoint x="1440" y="803" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-59" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Estimate Total Trip&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;MSR-1.5&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-ffcac9a9-7fff-ea1d-9a6b-a21baaa114f1&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall display the estimated time and distance for the entire trip.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="803" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="xLiG28oJmYrXfKfle2dx-60" edge="1">
+        <mxCell id="xLiG28oJmYrXfKfle2dx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1739.9999999999995" y="599.9999999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1640" y="790" />
               <mxPoint x="1740" y="790" />
             </Array>
+            <mxPoint x="1640" y="803" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Save Route&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;MSR-1.6&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-bf6a09b7-7fff-7673-dde0-d15843a8d085&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall allow saving a multi-stop route as a favorite or recurring route.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="803" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="xLiG28oJmYrXfKfle2dx-61" target="oBTIg1yz_-bCMmTLJF2G-59" edge="1">
+        <mxCell id="xLiG28oJmYrXfKfle2dx-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" target="oBTIg1yz_-bCMmTLJF2G-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1739.9999999999995" y="609.9999999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1840" y="790" />
               <mxPoint x="1740" y="790" />
             </Array>
+            <mxPoint x="1840" y="803" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Real-Time Optimization&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;MSR-1.7&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span style=&quot;background-color: transparent; font-family: Arial, sans-serif; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;The system shall account for traffic and real-time conditions when optimizing the multi-stop route.&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-wrap-mode: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bp%20style%3D%26quot%3Bmargin%3A0px%3Bmargin-top%3A4px%3Btext-align%3Acenter%3B%26quot%3B%26gt%3B%26lt%3Bi%26gt%3B%26amp%3Blt%3B%26amp%3Blt%3Brequirement%26amp%3Bgt%3B%26amp%3Bgt%3B%26lt%3B%2Fi%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3Bb%26gt%3BSave%20Route%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bhr%20size%3D%26quot%3B1%26quot%3B%20style%3D%26quot%3Bborder-style%3Asolid%3B%26quot%3B%26gt%3B%26lt%3Bp%20style%3D%26quot%3Bmargin%3A0px%3Bmargin-left%3A4px%3B%26quot%3B%26gt%3BId%3D%26quot%3BMSR-1.6%26quot%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%20style%3D%26quot%3Bmargin%3A0px%3Bmargin-left%3A4px%3B%26quot%3B%26gt%3Btext%3D%26quot%3B%26lt%3Bspan%20id%3D%26quot%3Bdocs-internal-guid-bf6a09b7-7fff-7673-dde0-d15843a8d085%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-family%3A%20Arial%2C%20sans-serif%3B%20background-color%3A%20transparent%3B%20font-variant-numeric%3A%20normal%3B%20font-variant-east-asian%3A%20normal%3B%20font-variant-alternates%3A%20normal%3B%20font-variant-position%3A%20normal%3B%20font-variant-emoji%3A%20normal%3B%20vertical-align%3A%20baseline%3B%20white-space-collapse%3A%20preserve%3B%26quot%3B%26gt%3B%26lt%3Bfont%26gt%3BThe%20system%20shall%20allow%20saving%20a%20multi-stop%20route%20as%20a%20favorite%20or%20recurring%20route.%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fspan%26gt%3B%26quot%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22verticalAlign%3Dtop%3Balign%3Dleft%3Boverflow%3Dfill%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221680%22%20y%3D%22841%22%20width%3D%22180%22%20height%3D%22120%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="803" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="xLiG28oJmYrXfKfle2dx-62" edge="1">
+        <mxCell id="xLiG28oJmYrXfKfle2dx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1739.9999999999995" y="599.9999999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2040" y="790" />
               <mxPoint x="1740" y="790" />
             </Array>
+            <mxPoint x="2040" y="803" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="xLiG28oJmYrXfKfle2dx-62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Turn-by-Turn Navigation&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;MSR-1.7&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span style=&quot;background-color: transparent; text-wrap-mode: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace;&quot;&gt;&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-87d9154a-7fff-b643-d541-843f7a380499&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;font&gt;The user shall receive turn-by-turn navigation for each leg of the route.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bp%20style%3D%26quot%3Bmargin%3A0px%3Bmargin-top%3A4px%3Btext-align%3Acenter%3B%26quot%3B%26gt%3B%26lt%3Bi%26gt%3B%26amp%3Blt%3B%26amp%3Blt%3Brequirement%26amp%3Bgt%3B%26amp%3Bgt%3B%26lt%3B%2Fi%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3Bb%26gt%3BSave%20Route%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bhr%20size%3D%26quot%3B1%26quot%3B%20style%3D%26quot%3Bborder-style%3Asolid%3B%26quot%3B%26gt%3B%26lt%3Bp%20style%3D%26quot%3Bmargin%3A0px%3Bmargin-left%3A4px%3B%26quot%3B%26gt%3BId%3D%26quot%3BMSR-1.6%26quot%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%20style%3D%26quot%3Bmargin%3A0px%3Bmargin-left%3A4px%3B%26quot%3B%26gt%3Btext%3D%26quot%3B%26lt%3Bspan%20id%3D%26quot%3Bdocs-internal-guid-bf6a09b7-7fff-7673-dde0-d15843a8d085%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-family%3A%20Arial%2C%20sans-serif%3B%20background-color%3A%20transparent%3B%20font-variant-numeric%3A%20normal%3B%20font-variant-east-asian%3A%20normal%3B%20font-variant-alternates%3A%20normal%3B%20font-variant-position%3A%20normal%3B%20font-variant-emoji%3A%20normal%3B%20vertical-align%3A%20baseline%3B%20white-space-collapse%3A%20preserve%3B%26quot%3B%26gt%3B%26lt%3Bfont%26gt%3BThe%20system%20shall%20allow%20saving%20a%20multi-stop%20route%20as%20a%20favorite%20or%20recurring%20route.%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fspan%26gt%3B%26quot%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22verticalAlign%3Dtop%3Balign%3Dleft%3Boverflow%3Dfill%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221680%22%20y%3D%22841%22%20width%3D%22180%22%20height%3D%22120%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="803" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="oBTIg1yz_-bCMmTLJF2G-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Choose Starting Destination&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;MSR-1.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system should receive the user input about the starting location of the route.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1350" y="663" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-60" target="oBTIg1yz_-bCMmTLJF2G-59">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="R4GyRsjgA57VFeCBJdje-60" target="oBTIg1yz_-bCMmTLJF2G-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1440" y="320" />
@@ -99,7 +91,7 @@
         <mxCell id="R4GyRsjgA57VFeCBJdje-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Fast Route Updates&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-1.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall calculate and display route updates in under 3 seconds.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1350" y="190" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-63">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" parent="1" source="R4GyRsjgA57VFeCBJdje-63" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1740" y="490" as="targetPoint" />
             <Array as="points">
@@ -111,7 +103,7 @@
         <mxCell id="R4GyRsjgA57VFeCBJdje-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Responsive Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The UI shall be responsive and intuitive on both Android and iOS platforms.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1350" y="330" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-64" target="oBTIg1yz_-bCMmTLJF2G-59">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="R4GyRsjgA57VFeCBJdje-64" target="oBTIg1yz_-bCMmTLJF2G-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1640" y="320" />
@@ -122,7 +114,7 @@
         <mxCell id="R4GyRsjgA57VFeCBJdje-64" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Accessibility Support&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall support accessibility features (e.g., voice navigation, screen readers).&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1550" y="190" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-66">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="R4GyRsjgA57VFeCBJdje-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1739.5" y="490" as="targetPoint" />
             <mxPoint x="1649.5" y="460.00000000000006" as="sourcePoint" />
@@ -135,31 +127,27 @@
         <mxCell id="R4GyRsjgA57VFeCBJdje-66" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;High Availability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-3.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall have 99.9% uptime.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1550" y="330" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-67" target="oBTIg1yz_-bCMmTLJF2G-59">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" target="oBTIg1yz_-bCMmTLJF2G-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1740.0000000000002" y="480" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1840" y="320" />
               <mxPoint x="1740" y="320" />
             </Array>
+            <mxPoint x="1840" y="310" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R4GyRsjgA57VFeCBJdje-67" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Cross-Device Sync&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-3.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Route data and user settings shall be synced across devices automatically.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="190" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-69">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1740" y="490" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1840" y="460" />
               <mxPoint x="1740" y="460" />
             </Array>
+            <mxPoint x="1840" y="450" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R4GyRsjgA57VFeCBJdje-69" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;Support for High User Load&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-4.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall support simultaneous access by at least 1 million users without performance degradation.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="330" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-71" target="oBTIg1yz_-bCMmTLJF2G-59">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="R4GyRsjgA57VFeCBJdje-71" target="oBTIg1yz_-bCMmTLJF2G-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2040" y="320" />
@@ -170,16 +158,14 @@
         <mxCell id="R4GyRsjgA57VFeCBJdje-71" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Data Encryption&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-5.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;All user data, including vehicle and route preferences, shall be encrypted in transit and at rest.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1950" y="190" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XZqf0IYz0BBXi9sCWVT4-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="R4GyRsjgA57VFeCBJdje-74" target="oBTIg1yz_-bCMmTLJF2G-59">
+        <mxCell id="XZqf0IYz0BBXi9sCWVT4-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" target="oBTIg1yz_-bCMmTLJF2G-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2040" y="460" />
               <mxPoint x="1740" y="460" />
             </Array>
+            <mxPoint x="2040" y="450" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="R4GyRsjgA57VFeCBJdje-74" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Modular Codebase&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-6.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system codebase shall follow modular design to ease updates and bug fixes.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="330" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
