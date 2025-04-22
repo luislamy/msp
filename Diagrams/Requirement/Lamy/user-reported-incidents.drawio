@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Página-1" id="IlDYEZVzDNYxJnUhvPW0">
-    <mxGraphModel dx="956" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-262" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,13 +21,11 @@
         <mxCell id="yQdaAu0om8zAUkcLIiNm-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Auto Timestamp and Geo-Tag&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-708ae59c-7fff-505c-e996-c11401c9822c&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall timestamp and geo-tag all reported incidents automatically.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2268" y="673" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yQdaAu0om8zAUkcLIiNm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="yQdaAu0om8zAUkcLIiNm-30" edge="1">
+        <mxCell id="yQdaAu0om8zAUkcLIiNm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2457.9999999999995" y="609.9999999999998" as="targetPoint" />
+            <mxPoint x="2558" y="673" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yQdaAu0om8zAUkcLIiNm-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Add Report Details&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1.3&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-6a50e386-7fff-d1de-354d-ceb1bfdd723a&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The user shall be able to optionally add a description or photo to the report.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2468" y="673" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yQdaAu0om8zAUkcLIiNm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="yQdaAu0om8zAUkcLIiNm-32" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -49,17 +47,15 @@
         <mxCell id="yQdaAu0om8zAUkcLIiNm-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Confirm or Dismiss Reports&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1.5&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-b5bdd2fd-7fff-8ccc-647e-68f819f424a8&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall allow users to confirm or dismiss reported incidents.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2068" y="813" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yQdaAu0om8zAUkcLIiNm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="yQdaAu0om8zAUkcLIiNm-36" edge="1">
+        <mxCell id="yQdaAu0om8zAUkcLIiNm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2457.9999999999995" y="609.9999999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2358" y="800" />
               <mxPoint x="2458" y="800" />
             </Array>
+            <mxPoint x="2358" y="813" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yQdaAu0om8zAUkcLIiNm-36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Manage Report Validity&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1.6&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-61e7e0c5-7fff-fc19-dc4a-a6f066ff5cc9&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall prioritize and remove outdated or unconfirmed reports automatically.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2268" y="813" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yQdaAu0om8zAUkcLIiNm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="yQdaAu0om8zAUkcLIiNm-38" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -120,27 +116,23 @@
         <mxCell id="oKgIYqmzzzvKaVtBbpCU-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;High Availability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-3.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall have 99.9% uptime.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2268" y="320" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2d_8gotsltEUQC4u3Hd0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" parent="1" source="oKgIYqmzzzvKaVtBbpCU-35" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
+        <mxCell id="2d_8gotsltEUQC4u3Hd0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" parent="1" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2558" y="300" />
               <mxPoint x="2458" y="300" />
             </Array>
+            <mxPoint x="2558" y="280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oKgIYqmzzzvKaVtBbpCU-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;Support for High User Load&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-4.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall support simultaneous access by at least 1 million users without performance degradation.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2468" y="160" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2d_8gotsltEUQC4u3Hd0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" parent="1" source="oKgIYqmzzzvKaVtBbpCU-37" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
+        <mxCell id="2d_8gotsltEUQC4u3Hd0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" parent="1" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2560" y="460" />
               <mxPoint x="2458" y="460" />
             </Array>
+            <mxPoint x="2560" y="440" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="oKgIYqmzzzvKaVtBbpCU-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Data Encryption&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-5.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;All user data, including vehicle and route preferences, shall be encrypted in transit and at rest.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2470" y="320" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2d_8gotsltEUQC4u3Hd0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;" parent="1" source="oKgIYqmzzzvKaVtBbpCU-38" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -153,27 +145,23 @@
         <mxCell id="oKgIYqmzzzvKaVtBbpCU-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Authenticated Submissions&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-5.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Only authenticated users shall be able to submit or edit incident reports.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2668" y="160" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2d_8gotsltEUQC4u3Hd0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="oKgIYqmzzzvKaVtBbpCU-40" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
+        <mxCell id="2d_8gotsltEUQC4u3Hd0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2758" y="460" />
               <mxPoint x="2458" y="460" />
             </Array>
+            <mxPoint x="2758" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oKgIYqmzzzvKaVtBbpCU-40" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Modular Codebase&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-6.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system codebase shall follow modular design to ease updates and bug fixes.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2668" y="320" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2d_8gotsltEUQC4u3Hd0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="oKgIYqmzzzvKaVtBbpCU-41" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
+        <mxCell id="2d_8gotsltEUQC4u3Hd0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2960" y="300" />
               <mxPoint x="2458" y="300" />
             </Array>
+            <mxPoint x="2960" y="280" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="oKgIYqmzzzvKaVtBbpCU-41" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Configurable Categories&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-6.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Incident types and vehicle categories shall be configurable without redeploying the application.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2870" y="160" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
