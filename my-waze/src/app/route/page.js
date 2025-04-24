@@ -3,6 +3,8 @@ import { useState, useRef } from "react";
 
 export default function Page() {
   //const [stops, setStops] = useState([]);
+  // niveis de transito
+  
   const [eta, setEta] = useState(null);
   const etaCache = useRef({});
 
