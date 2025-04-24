@@ -68,7 +68,9 @@ export default function Page() {
         boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
         color: "#111",
       }}
+      className="flex flex-col justify-items-center items-center p-8 rounded-xl text-center gap-8 bg-white w-fit mx-auto"
     >
+      <a href="/"><h1 className="text-2xl font-bold text-gray-800 bg-yellow-400">Back to Main Menu</h1></a>
       <h2 style={{ fontSize: "20px", fontWeight: "bold", textAlign: "center" }}>
         Register Vehicle Type
       </h2>
