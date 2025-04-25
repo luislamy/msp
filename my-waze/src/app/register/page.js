@@ -59,10 +59,6 @@ export default function WazeRegistration() {
           <Input placeholder="Password" type="password" className="mt-1" onChange={e => handleChange('password', e.target.value)} />
         </div>
 
-        <div className="flex gap-4 text-blue-600 text-sm underline">
-          <button>Sign in with Google</button>
-          <button>Sign in with Facebook</button>
-        </div>
 
         <div>
           <label className="block font-semibold mt-4">Device & Permissions</label>
