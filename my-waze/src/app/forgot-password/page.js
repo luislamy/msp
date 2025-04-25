@@ -23,7 +23,7 @@ export default function ForgotPassword() {
         className="mb-4 flex items-center text-blue-600 hover:underline"
       >
         <ArrowLeft className="w-5 h-5 mr-2" />
-        Back to Login
+      
       </button>
 
       <h2 className="text-2xl font-bold mb-4">Forgot Password</h2>
@@ -33,7 +33,7 @@ export default function ForgotPassword() {
           <label className="block text-sm font-medium mb-1">
             Choose how to reset your password:
           </label>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center" >
             <button
               className={`px-4 py-2 border rounded ${
                 method === "email"
