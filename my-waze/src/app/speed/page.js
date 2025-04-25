@@ -7,12 +7,12 @@ export default function SpeedLimitWarning() {
   const [speedLimit, setSpeedLimit] = useState(90); // default 90 km/h mas depois mudar
   const [isOverLimit, setIsOverLimit] = useState(false);
 
-  // Simula velocidade nova a cada 2 segundos
+  // Simula velocidade nova a cada 3 segundos
   useEffect(() => {
     const interval = setInterval(() => {
       const randomSpeed = Math.floor(Math.random() * 130); // 0-130 km/h
       setSimulatedSpeed(randomSpeed);
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
