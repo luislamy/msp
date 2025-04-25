@@ -37,7 +37,12 @@ export default function WazeLogin() {
           onChange={e => handleChange('password', e.target.value)}
         />
         <div className="text-right text-sm text-blue-600 hover:underline cursor-pointer">
+        <span
+          onClick={() => router.push('/forgot-password')}
+          className="text-blue-600 hover:underline cursor-pointer"
+        >
           Forgot Password?
+        </span>
         </div>
         <Button type="submit" className="w-full mt-2">
           Login
