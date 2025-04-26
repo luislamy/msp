@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import { findUser } from '@/lib/userDB';
 import { useRouter } from 'next/navigation';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -18,8 +19,13 @@ export default function WazeLogin() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Logging in with', formData);
-    // Add login logic here
+    const user = findUser(formData.identifier, formData.password);
+    if (user) {
+      alert(`Welcome back, ${user.username}!`);
+      router.push('/');
+    } else {
+      alert('Invalid credentials. Please try again.');
+    }
   };
 
   return (

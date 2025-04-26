@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { findUserByIdentifier } from "@/lib/userDB";
 import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -12,9 +13,14 @@ export default function ForgotPassword() {
   const [identifier, setIdentifier] = useState("");
 
   const handleSend = () => {
-    // TODO: implement API call to send reset link or code
-    alert(`Password reset via ${method} to ${identifier}`);
-  };
+    const user = findUserByIdentifier(method, identifier);
+    if (user) {
+      alert(`Reset link sent to ${identifier}`);
+      router.push("/login");
+    } else {
+      alert('User not found.');
+    }
+  };;
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 shadow-lg rounded-lg bg-white">

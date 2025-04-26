@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import { addUser } from '@/lib/userDB';
 import { useRouter } from 'next/navigation';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -96,7 +97,16 @@ export default function WazeRegistration() {
           </label>
         </div>
 
-        <Button className="w-full mt-4">Register</Button>
+        <Button
+          className="w-full mt-4"
+          onClick={() => {
+            addUser(formData);
+            alert('User registered successfully!');
+            router.push('/login');
+          }}
+        >
+          Register
+        </Button>
       </div>
     </div>
   );
