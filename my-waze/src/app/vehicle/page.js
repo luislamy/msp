@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Page() {
   const [vehicleType, setVehicleType] = useState("");
@@ -12,6 +13,22 @@ export default function Page() {
   const [isDefault, setIsDefault] = useState(false);
   const [errors, setErrors] = useState({});
   const [showSuccess, setShowSuccess] = useState(false);
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const savedVehicles = JSON.parse(localStorage.getItem("vehicles") || "[]");
+    if (savedVehicles.length > 0) {
+      const lastVehicle = savedVehicles[savedVehicles.length - 1];
+      setVehicleType(lastVehicle.vehicleType || "");
+      setFuelType(lastVehicle.fuelType || "");
+      setLength(lastVehicle.length || "");
+      setWidth(lastVehicle.width || "");
+      setHeight(lastVehicle.height || "");
+      setUsageRestrictions(lastVehicle.usageRestrictions || "");
+      setIsDefault(lastVehicle.isDefault || false);
+    }
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,8 +43,7 @@ export default function Page() {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      setShowSuccess(true);
-      console.log({
+      const vehicleData = {
         vehicleType,
         fuelType,
         length,
@@ -35,7 +51,20 @@ export default function Page() {
         height,
         usageRestrictions,
         isDefault,
-      });
+      };
+
+      let savedVehicles = JSON.parse(localStorage.getItem("vehicles") || "[]");
+
+      if (savedVehicles.length > 0) {
+        savedVehicles[savedVehicles.length - 1] = vehicleData;
+      } else {
+        savedVehicles.push(vehicleData);
+      }
+
+      localStorage.setItem("vehicles", JSON.stringify(savedVehicles));
+
+      setShowSuccess(true);
+      console.log("Vehicle saved:", vehicleData);
     }
   };
 
@@ -68,9 +97,7 @@ export default function Page() {
         boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
         color: "#111",
       }}
-      className="flex flex-col justify-items-center items-center p-8 rounded-xl text-center gap-8 bg-white w-fit mx-auto text-black"
     >
-      <a href="/"><h1 className="text-2xl font-bold text-gray-800 bg-yellow-400">Back to Main Menu</h1></a>
       <h2 style={{ fontSize: "20px", fontWeight: "bold", textAlign: "center" }}>
         Register Vehicle Type
       </h2>
@@ -223,9 +250,27 @@ export default function Page() {
             color: "#fff",
             border: "none",
             borderRadius: "4px",
+            cursor: "pointer",
           }}
         >
           Save Vehicle
+        </button>
+
+        <button
+          type="button"
+          onClick={() => router.push("/")}
+          style={{
+            marginTop: "8px",
+            padding: "8px",
+            fontWeight: "normal",
+            backgroundColor: "#eee",
+            color: "#333",
+            border: "1px solid #ccc",
+            borderRadius: "4px",
+            cursor: "pointer",
+          }}
+        >
+          Back to Main Menu
         </button>
       </form>
     </div>
