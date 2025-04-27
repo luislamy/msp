@@ -20,9 +20,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white flex justify-center items-center min-h-screen`}
       >
-        {children}
+        {/* Phone Frame */}
+        <div className="relative w-[430px] h-[900px] bg-no-repeat bg-center bg-contain flex items-center justify-center">
+          <img
+            src="/phone-frame.png"
+            alt="Phone Frame"
+            className="absolute top-0 left-0 w-full h-full pointer-events-none"
+          />
+
+          {/* Phone Screen (Inside the phone) */}
+          <div className="w-[380px] h-[760px] bg-white rounded-2xl px-6 pt-20 pb-6 overflow-y-auto">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
 
 export default function Page() {
   const [vehicleType, setVehicleType] = useState("");
@@ -98,6 +99,12 @@ export default function Page() {
         color: "#111",
       }}
     >
+      <button
+        onClick={() => router.push("/")}
+        className="mb-4 flex items-center text-black-600 cursor-pointer"
+      >
+        <ArrowLeft className="w-5 h-5 mr-2" />
+      </button>
       <h2 style={{ fontSize: "20px", fontWeight: "bold", textAlign: "center" }}>
         Register Vehicle Type
       </h2>
@@ -246,7 +253,7 @@ export default function Page() {
           style={{
             padding: "10px",
             fontWeight: "bold",
-            backgroundColor: "#0070f3",
+            backgroundColor: "#000000",
             color: "#fff",
             border: "none",
             borderRadius: "4px",
@@ -254,23 +261,6 @@ export default function Page() {
           }}
         >
           Save Vehicle
-        </button>
-
-        <button
-          type="button"
-          onClick={() => router.push("/")}
-          style={{
-            marginTop: "8px",
-            padding: "8px",
-            fontWeight: "normal",
-            backgroundColor: "#eee",
-            color: "#333",
-            border: "1px solid #ccc",
-            borderRadius: "4px",
-            cursor: "pointer",
-          }}
-        >
-          Back to Main Menu
         </button>
       </form>
     </div>

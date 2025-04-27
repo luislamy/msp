@@ -1,7 +1,10 @@
-'use client'
+"use client";
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
 
 export default function Page() {
+  const router = useRouter();
   // const [stops, setStops] = useState([]);
   // niveis de transito
 
@@ -36,8 +39,12 @@ export default function Page() {
   }, []);
 
   const calculateETA = () => {
-    const start = document.querySelector("input[placeholder='Enter starting location']").value.trim();
-    const destination = document.querySelector("input[placeholder='Enter destination']").value.trim();
+    const start = document
+      .querySelector("input[placeholder='Enter starting location']")
+      .value.trim();
+    const destination = document
+      .querySelector("input[placeholder='Enter destination']")
+      .value.trim();
 
     if (!start || !destination) return;
 
@@ -72,13 +79,16 @@ export default function Page() {
       destination,
       intensity: traffic,
       eta: totalETA,
-      baseTime
+      baseTime,
     };
 
     setEta(totalETA);
 
     const routeLabel = `${start} ➝ ${destination} [${traffic}]`;
-    const updatedRoutes = [routeLabel, ...storedRoutes.filter(r => r !== routeLabel)].slice(0, 10);
+    const updatedRoutes = [
+      routeLabel,
+      ...storedRoutes.filter((r) => r !== routeLabel),
+    ].slice(0, 10);
     setStoredRoutes(updatedRoutes);
     localStorage.setItem("plannedRoutes", JSON.stringify(updatedRoutes));
   };
@@ -90,13 +100,26 @@ export default function Page() {
 
   return (
     <div className="max-w-md shadow-lg text-black space-y-6 flex flex-col justify-items-center items-center p-8 rounded-xl text-center gap-8 bg-white w-fit mx-auto">
-      <a href="/"><h1 className="text-2xl font-bold text-gray-800 bg-yellow-400">Back to Main Menu</h1></a>
-      <h1 className="text-2xl font-bold text-gray-800">Define Multi-Stop Route</h1>
+      <button
+        onClick={() => router.push("/")}
+        className="flex items-center cursor-pointer text-black-600 self-start mb-1"
+      >
+        <ArrowLeft className="w-5 h-5 mr-2" />
+      </button>
+      <h1 className="text-2xl font-bold text-gray-800">
+        Define Multi-Stop Route
+      </h1>
 
       <section className="pt-2">
         <div className="grid grid-cols-1 gap-4">
-          <label className="text-sm font-medium text-gray-700">Starting Location</label>
-          <input type="text" placeholder="Enter starting location" className="input" />
+          <label className="text-sm font-medium text-gray-700">
+            Starting Location
+          </label>
+          <input
+            type="text"
+            placeholder="Enter starting location"
+            className="input"
+          />
 
           {/*stops.map((stop, index) => (
             <div key={index} className="flex gap-2 items-center">
@@ -125,10 +148,18 @@ export default function Page() {
           </button>
           */}
 
-          <label className="text-sm font-medium text-gray-700">Destination</label>
-          <input type="text" placeholder="Enter destination" className="input" />
+          <label className="text-sm font-medium text-gray-700">
+            Destination
+          </label>
+          <input
+            type="text"
+            placeholder="Enter destination"
+            className="input"
+          />
 
-          <label className="text-sm font-medium text-gray-700">Traffic Intensity</label>
+          <label className="text-sm font-medium text-gray-700">
+            Traffic Intensity
+          </label>
           <select
             value={traffic}
             onChange={(e) => setTraffic(e.target.value)}
@@ -140,7 +171,7 @@ export default function Page() {
           </select>
 
           <button
-            className="btn w-full bg-green-600 hover:bg-green-700 text-white"
+            className="btn w-full bg-black cursor-pointer text-white"
             onClick={calculateETA}
           >
             Plan Route
