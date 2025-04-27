@@ -1,11 +1,14 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
 
 export default function SpeedLimitWarning() {
   const [simulatedSpeed, setSimulatedSpeed] = useState(0);
   const [speedLimit, setSpeedLimit] = useState(90); // default 90 km/h mas depois mudar
   const [isOverLimit, setIsOverLimit] = useState(false);
+  const router = useRouter();
 
   // Simula velocidade nova a cada 3 segundos
   useEffect(() => {
@@ -35,9 +38,12 @@ export default function SpeedLimitWarning() {
         textAlign: "center",
       }}
     >
-      <a href="/">
-        <h1 className="text-2xl font-bold text-gray-800 bg-yellow-400">Back to Main Menu</h1>
-      </a>
+      <button
+        onClick={() => router.push("/")}
+        className="flex items-center cursor-pointer self-start mb-1 text-black-600"
+      >
+        <ArrowLeft className="w-5 h-5 mr-2" />
+      </button>
 
       <h2 className="text-xl font-bold mb-4">Speed Limit Warning</h2>
 
@@ -92,4 +98,3 @@ export default function SpeedLimitWarning() {
     </div>
   );
 }
-
