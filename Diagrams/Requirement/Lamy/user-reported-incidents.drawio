@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="IlDYEZVzDNYxJnUhvPW0">
-    <mxGraphModel dx="3566" dy="2675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-612" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yQdaAu0om8zAUkcLIiNm-24" value="req User-Reported Incidents" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=200;height=40;" parent="1" vertex="1">
+        <mxCell id="yQdaAu0om8zAUkcLIiNm-24" value="req [Package] MyWaze Requirements [User-Reported Incidents&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=431;height=34;" parent="1" vertex="1">
           <mxGeometry x="1689" y="36" width="1410" height="800" as="geometry" />
         </mxCell>
         <mxCell id="yQdaAu0om8zAUkcLIiNm-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;User-Reported Incidents&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-d911a3a4-7fff-c349-394f-7dc3954f3160&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot;&gt;The system shall allow users to report incidents in real-time.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2206.5" y="346" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="yQdaAu0om8zAUkcLIiNm-28" target="yQdaAu0om8zAUkcLIiNm-25">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="yQdaAu0om8zAUkcLIiNm-28" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yQdaAu0om8zAUkcLIiNm-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Auto Timestamp and Geo-Tag&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-708ae59c-7fff-505c-e996-c11401c9822c&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall timestamp and geo-tag all reported incidents automatically.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
@@ -19,7 +19,7 @@
         <mxCell id="yQdaAu0om8zAUkcLIiNm-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Display Incidents on Map&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1.4&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-1f2168ce-7fff-34c7-2674-8f81e91afe93&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall display reported incidents on the map for other users.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2419" y="529" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQdaAu0om8zAUkcLIiNm-34" target="yQdaAu0om8zAUkcLIiNm-38">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yQdaAu0om8zAUkcLIiNm-34" target="yQdaAu0om8zAUkcLIiNm-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2298.9999999999995" y="506" as="targetPoint" />
             <Array as="points">
@@ -37,13 +37,13 @@
         <mxCell id="yQdaAu0om8zAUkcLIiNm-41" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Report Incident Types&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-e2dd91c9-7fff-d23b-b21f-197713011ba5&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The user shall be able to report various incident types (e.g., traffic, accident, roadwork, hazard).&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1999" y="529" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="oKgIYqmzzzvKaVtBbpCU-32" target="IpD4c2qUMGVP6bn38XcO-59">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="oKgIYqmzzzvKaVtBbpCU-32" target="IpD4c2qUMGVP6bn38XcO-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oKgIYqmzzzvKaVtBbpCU-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;High Availability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-3.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall have 99.9% uptime.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1739" y="296" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="yQdaAu0om8zAUkcLIiNm-32">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="yQdaAu0om8zAUkcLIiNm-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2287" y="529" as="targetPoint" />
             <mxPoint x="2085" y="529" as="sourcePoint" />
@@ -53,13 +53,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-41" target="yQdaAu0om8zAUkcLIiNm-25">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-41" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-41" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Performance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be performant.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-41" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Performance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be performant.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1949" y="126" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-45" target="IpD4c2qUMGVP6bn38XcO-41">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-45" target="IpD4c2qUMGVP6bn38XcO-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2054" y="356" />
@@ -67,10 +67,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Real-Time Incident Reporting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-1.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Incident reports shall appear on the map within 10 seconds of submission.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Real-Time Incident Reporting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-1.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Incident reports shall appear on the map within 10 seconds of submission.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1949" y="296" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-47" target="yQdaAu0om8zAUkcLIiNm-25">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-47" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2689" y="106" />
@@ -78,22 +78,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Usability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be usable.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Usability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be usable.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2539" y="126" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-49" target="IpD4c2qUMGVP6bn38XcO-47">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-49" target="IpD4c2qUMGVP6bn38XcO-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Responsive Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The UI shall be responsive and intuitive on both Android and iOS platforms.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Responsive Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2.1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The UI shall be responsive and intuitive on both Android and iOS platforms.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2429" y="296" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-51" target="IpD4c2qUMGVP6bn38XcO-47">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-51" target="IpD4c2qUMGVP6bn38XcO-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Accessibility Support&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall support accessibility features (e.g., voice navigation, screen readers).&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Accessibility Support&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-2.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall support accessibility features (e.g., voice navigation, screen readers).&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2649" y="296" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-53" target="yQdaAu0om8zAUkcLIiNm-25">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-53" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2955" y="106" />
@@ -101,10 +101,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Security&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-5&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be secure.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Security&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-5&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be secure.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2865" y="126" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-57" target="IpD4c2qUMGVP6bn38XcO-53">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circlePlus;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-57" target="IpD4c2qUMGVP6bn38XcO-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2955" y="286" />
@@ -112,10 +112,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Authenticated Submissions&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-5.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Only authenticated users shall be able to submit or edit incident reports.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Authenticated Submissions&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-5.2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Only authenticated users shall be able to submit or edit incident reports.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2865" y="296" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1" source="IpD4c2qUMGVP6bn38XcO-59" target="yQdaAu0om8zAUkcLIiNm-25">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" parent="1" source="IpD4c2qUMGVP6bn38XcO-59" target="yQdaAu0om8zAUkcLIiNm-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1859" y="106" />
@@ -123,7 +123,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IpD4c2qUMGVP6bn38XcO-59" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Reliability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-3&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be reliable.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IpD4c2qUMGVP6bn38XcO-59" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Reliability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-3&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be reliable.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1739" y="126" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
