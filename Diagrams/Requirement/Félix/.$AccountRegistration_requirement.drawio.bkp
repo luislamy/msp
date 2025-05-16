@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
   <diagram name="Page-1" id="jVy5ansgh5haitN2zPb1">
-    <mxGraphModel dx="815" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1427" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,8 +59,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hsrkofads_pFi1Em-_a1-4" value="&lt;p&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CredentialValidator&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="3hlQd6VnyrCngBvV6r2V-1">
-          <mxGeometry x="333.25" y="440" width="121.5" height="60" as="geometry" />
+        <mxCell id="hsrkofads_pFi1Em-_a1-4" value="&lt;p&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ValidationService&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="3hlQd6VnyrCngBvV6r2V-1">
+          <mxGeometry x="338.5" y="440" width="111" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hsrkofads_pFi1Em-_a1-5" value="&amp;lt;&amp;lt;satisfy&amp;gt;&amp;gt;" style="endArrow=open;edgeStyle=none;endSize=6;dashed=1;html=1;rounded=0;endFill=0;startSize=4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="hsrkofads_pFi1Em-_a1-6" parent="3hlQd6VnyrCngBvV6r2V-1" target="3hlQd6VnyrCngBvV6r2V-45">
           <mxGeometry relative="1" as="geometry">
@@ -72,11 +72,8 @@
         <mxCell id="hsrkofads_pFi1Em-_a1-6" value="&lt;p&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;User DS&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="3hlQd6VnyrCngBvV6r2V-1">
           <mxGeometry x="574.9999999999998" y="440" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hsrkofads_pFi1Em-_a1-8" value="&lt;p&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;EmailGateway&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="3hlQd6VnyrCngBvV6r2V-1">
-          <mxGeometry x="800" y="440" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hsrkofads_pFi1Em-_a1-9" value="&lt;p&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;AuthService&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="3hlQd6VnyrCngBvV6r2V-1">
-          <mxGeometry x="170" y="94" width="111.5" height="60" as="geometry" />
+        <mxCell id="hsrkofads_pFi1Em-_a1-8" value="&lt;p&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;EmailConfirmationService&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="3hlQd6VnyrCngBvV6r2V-1">
+          <mxGeometry x="770" y="440" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3hlQd6VnyrCngBvV6r2V-16" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="444" y="70" width="200" height="116" as="geometry" />
@@ -164,13 +161,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1135" y="404" as="sourcePoint" />
             <mxPoint x="915" y="420" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hsrkofads_pFi1Em-_a1-10" value="&amp;lt;&amp;lt;satisfy&amp;gt;&amp;gt;" style="endArrow=open;edgeStyle=none;endSize=6;dashed=1;html=1;rounded=0;endFill=0;startSize=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hsrkofads_pFi1Em-_a1-9" parent="1" target="3hlQd6VnyrCngBvV6r2V-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="471.75" y="88" as="sourcePoint" />
-            <mxPoint x="250.75" y="50" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
