@@ -1,3 +1,5 @@
+Extended até dia 2 de manhã
+
 Update Gant Chart for second sprint
 
 **Architectural design.**
@@ -7,11 +9,15 @@ o quality control deve rodar ou ent devemos meter no relatorio que é feito por 
  Context diagram: use a Block Definition Diagram (BDD) linking actors to the system as a black box.
     - Member: Guilherme
 
+    ADICIONAR CONTROLOS
+    ADICIONAR DOMAINS NO MAP DATA (POI)
+    JUSTIFICAR DIVISÃO DE SUSYSTEMAS
+
 - Use case view: A Use Case diagram for all the features (5 basic + 4 chosen + 1 new). 
     - Member: All
 
 -  Logical view: use a Block diagram to show the decomposition of the system for all the features (5 basic + 4 chosen + 1 new), including interface, control and domain objects. 
-    - Member: All
+    - Member: Guilherme
 
 -  Process View: Sequence diagrams only for the 4 features chosen + 1 new.
     Member: All excepts Guilherme
