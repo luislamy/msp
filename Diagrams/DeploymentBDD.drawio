@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
+  <diagram name="Page-1" id="q88rTGBWxd67gjy5iL3X">
+    <mxGraphModel dx="1216" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-1" value="«server»&lt;br&gt;&lt;b&gt;MyWazeDatabase Server&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="315" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="TSWA5S-_omzPxR2A-MK8-2" target="TSWA5S-_omzPxR2A-MK8-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-4" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TSWA5S-_omzPxR2A-MK8-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0356" y="-3" relative="1" as="geometry">
+            <mxPoint x="-27" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-2" value="«subsystem»&lt;br&gt;&lt;b&gt;User Management&amp;nbsp;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="320" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-5" value="«server»&lt;br&gt;&lt;b&gt;TrafficDatabase Server&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="490" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-6" value="«server»&lt;br&gt;&lt;b&gt;Map Server&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="670" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="TSWA5S-_omzPxR2A-MK8-7" target="TSWA5S-_omzPxR2A-MK8-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-7" value="&lt;div&gt;&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;/div&gt;Points of Interest (POI)" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="310" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-9" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="330" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="TSWA5S-_omzPxR2A-MK8-10" target="TSWA5S-_omzPxR2A-MK8-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="TSWA5S-_omzPxR2A-MK8-10" target="TSWA5S-_omzPxR2A-MK8-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="230" />
+              <mxPoint x="398" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="TSWA5S-_omzPxR2A-MK8-10" target="TSWA5S-_omzPxR2A-MK8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWA5S-_omzPxR2A-MK8-10" value="«subSystem»&lt;br&gt;&lt;b&gt;Traffic Monotoring &amp;amp; Alerts&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="500" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--1" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--3" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="g3qKcvHotvEfY83kvAJ--4" target="TSWA5S-_omzPxR2A-MK8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="g3qKcvHotvEfY83kvAJ--4" target="TSWA5S-_omzPxR2A-MK8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--4" value="«subsystem»&lt;br&gt;&lt;b&gt;Navigation&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--6" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="510" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="g3qKcvHotvEfY83kvAJ--7" target="TSWA5S-_omzPxR2A-MK8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--7" value="&lt;div&gt;&amp;lt;&amp;lt;subSystem&amp;gt;&amp;gt;&lt;/div&gt;Third-Party Integration" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--9" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--11" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="700" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="g3qKcvHotvEfY83kvAJ--13" value="&amp;lt;&amp;lt;allocate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
