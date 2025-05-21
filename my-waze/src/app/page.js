@@ -26,6 +26,12 @@ export default function Home() {
           Define Route and Calculate ETA
         </div>
       </a>
+      
+      <a href="/poi" className="w-full">
+        <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">
+          Find POI
+        </div>
+      </a>
 
       <a href="/speed" className="w-full">
         <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">

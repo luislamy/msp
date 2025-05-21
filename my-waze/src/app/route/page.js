@@ -1,54 +1,51 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 
 export default function Page() {
   const router = useRouter();
-  // const [stops, setStops] = useState([]);
-  // niveis de transito
-
+  const searchParams = useSearchParams();
+  const [startLocation, setStartLocation] = useState("");
+  const [destination, setDestination] = useState("");
   const [eta, setEta] = useState(null);
   const [traffic, setTraffic] = useState("Light");
   const [storedRoutes, setStoredRoutes] = useState([]);
   const etaCache = useRef({});
-
-  /*
-  const handleStopChange = (index, value) => {
-    const newStops = [...stops];
-    newStops[index] = value;
-    setStops(newStops);
-  };
-
-  const addStop = () => {
-    setStops([...stops, ""]);
-  };
-
-  const removeStop = (index) => {
-    if (stops.length === 0) return;
-    const newStops = stops.filter((_, i) => i !== index);
-    setStops(newStops);
-  };
-  */
-
+  
   useEffect(() => {
+    // Load any saved routes from localStorage
     const saved = localStorage.getItem("plannedRoutes");
     if (saved) {
       setStoredRoutes(JSON.parse(saved));
     }
-  }, []);
+    
+    // Check for query parameters to auto-fill the form
+    const from = searchParams.get('from');
+    const to = searchParams.get('to');
+    
+    if (from) {
+      setStartLocation(from);
+    }
+    
+    if (to) {
+      setDestination(to);
+    }
+    
+    // If both parameters are present, you could optionally auto-calculate the route
+    if (from && to) {
+      // Uncomment the line below if you want to auto-calculate when parameters are present
+      // setTimeout(() => calculateETA(), 500);
+    }
+  }, [searchParams]);
 
   const calculateETA = () => {
-    const start = document
-      .querySelector("input[placeholder='Enter starting location']")
-      .value.trim();
-    const destination = document
-      .querySelector("input[placeholder='Enter destination']")
-      .value.trim();
+    const start = startLocation.trim();
+    const end = destination.trim();
 
-    if (!start || !destination) return;
+    if (!start || !end) return;
 
-    const routeId = `${start}->${destination}`;
+    const routeId = `${start}->${end}`;
     const cacheKey = `${routeId}->${traffic}`;
 
     let baseTime;
@@ -76,7 +73,7 @@ export default function Page() {
 
     etaCache.current[cacheKey] = {
       start,
-      destination,
+      destination: end,
       intensity: traffic,
       eta: totalETA,
       baseTime,
@@ -84,7 +81,7 @@ export default function Page() {
 
     setEta(totalETA);
 
-    const routeLabel = `${start} ➝ ${destination} [${traffic}]`;
+    const routeLabel = `${start} ➝ ${end} [${traffic}]`;
     const updatedRoutes = [
       routeLabel,
       ...storedRoutes.filter((r) => r !== routeLabel),
@@ -119,34 +116,9 @@ export default function Page() {
             type="text"
             placeholder="Enter starting location"
             className="input"
+            value={startLocation}
+            onChange={(e) => setStartLocation(e.target.value)}
           />
-
-          {/*stops.map((stop, index) => (
-            <div key={index} className="flex gap-2 items-center">
-              <input
-                type="text"
-                placeholder={`Stop ${index + 1}`}
-                className="input flex-1"
-                value={stop}
-                onChange={(e) => handleStopChange(index, e.target.value)}
-              />
-              <button
-                className="text-red-500 text-sm"
-                onClick={() => removeStop(index)}
-              >
-                Remove
-              </button>
-            </div>
-          ))*/}
-
-          {/* 
-          <button
-            className="btn bg-gray-200 hover:bg-gray-300 text-gray-800"
-            onClick={addStop}
-          >
-            + Add Stop
-          </button>
-          */}
 
           <label className="text-sm font-medium text-gray-700">
             Destination
@@ -155,6 +127,8 @@ export default function Page() {
             type="text"
             placeholder="Enter destination"
             className="input"
+            value={destination}
+            onChange={(e) => setDestination(e.target.value)}
           />
 
           <label className="text-sm font-medium text-gray-700">
