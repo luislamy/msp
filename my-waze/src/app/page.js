@@ -3,41 +3,24 @@ export default function Home() {
     <div className="flex flex-col items-center text-center gap-6">
       <h1 className="font-bold text-2xl text-black">Welcome to MyWaze</h1>
 
-      <a href="/register" className="w-full">
-        <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">
-          Register Account
-        </div>
-      </a>
-
-      <a href="/login" className="w-full">
-        <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">
-          Login
-        </div>
-      </a>
-
-      <a href="/vehicle" className="w-full">
-        <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">
-          Register Vehicle Type
-        </div>
-      </a>
-
-      <a href="/route" className="w-full">
-        <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">
-          Define Route and Calculate ETA
-        </div>
-      </a>
-      
-      <a href="/poi" className="w-full">
-        <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">
-          Find POI
-        </div>
-      </a>
-
-      <a href="/speed" className="w-full">
-        <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition">
-          Alert Speed Limit
-        </div>
-      </a>
+      {/* Scrollable container */}
+      <div className="w-full max-h-screen overflow-y-auto flex flex-col gap-4 px-4">
+        {[
+          { href: "/register", label: "Register Account" },
+          { href: "/login", label: "Login" },
+          { href: "/vehicle", label: "Register Vehicle Type" },
+          { href: "/route", label: "Define Route and Calculate ETA" },
+          { href: "/poi", label: "Find POI" },
+          { href: "/speed", label: "Alert Speed Limit" },
+          { href: "/music", label: "Connect with Music Apps" }, // Adjusted href
+        ].map((item, index) => (
+          <a href={item.href} key={index} className="w-full">
+            <div className="bg-gray-100 w-full py-4 rounded-lg text-lg font-medium hover:bg-gray-200 cursor-pointer transition text-center">
+              {item.label}
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   );
 }
