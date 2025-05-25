@@ -1,55 +1,49 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Plus, Trash } from "lucide-react";
 
 export default function Page() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [startLocation, setStartLocation] = useState("");
   const [destination, setDestination] = useState("");
+  const [stops, setStops] = useState([""]);
   const [eta, setEta] = useState(null);
   const [traffic, setTraffic] = useState("Light");
   const [storedRoutes, setStoredRoutes] = useState([]);
   const etaCache = useRef({});
-  
+
   useEffect(() => {
-    // Load any saved routes from localStorage
     const saved = localStorage.getItem("plannedRoutes");
-    if (saved) {
-      setStoredRoutes(JSON.parse(saved));
-    }
-    
-    // Check for query parameters to auto-fill the form
-    const from = searchParams.get('from');
-    const to = searchParams.get('to');
-    
-    if (from) {
-      setStartLocation(from);
-    }
-    
-    if (to) {
-      setDestination(to);
-    }
-    
-    // If both parameters are present, you could optionally auto-calculate the route
-    if (from && to) {
-      // Uncomment the line below if you want to auto-calculate when parameters are present
-      // setTimeout(() => calculateETA(), 500);
-    }
+    if (saved) setStoredRoutes(JSON.parse(saved));
+
+    const from = searchParams.get("from");
+    const to = searchParams.get("to");
+
+    if (from) setStartLocation(from);
+    if (to) setDestination(to);
   }, [searchParams]);
 
-  const calculateETA = () => {
-    const start = startLocation.trim();
-    const end = destination.trim();
+  const handleStopChange = (index, value) => {
+    const newStops = [...stops];
+    newStops[index] = value;
+    setStops(newStops);
+  };
 
-    if (!start || !end) return;
+  const addStop = () => {
+    setStops([...stops, ""]);
+  };
 
+  const removeStop = (index) => {
+    setStops(stops.filter((_, i) => i !== index));
+  };
+
+  const calculateLegETA = (start, end) => {
     const routeId = `${start}->${end}`;
     const cacheKey = `${routeId}->${traffic}`;
 
     let baseTime;
-
     if (etaCache.current[routeId]) {
       baseTime = etaCache.current[routeId].baseTime;
     } else {
@@ -59,18 +53,15 @@ export default function Page() {
 
     let multiplier = 1;
     let buffer = 0;
-
     if (traffic === "Moderate") {
       multiplier = 1.25;
       buffer = 1;
-    }
-    if (traffic === "Heavy") {
+    } else if (traffic === "Heavy") {
       multiplier = 1.5;
       buffer = 2;
     }
 
-    let totalETA = Math.ceil(baseTime * multiplier + buffer);
-
+    const totalETA = Math.ceil(baseTime * multiplier + buffer);
     etaCache.current[cacheKey] = {
       start,
       destination: end,
@@ -79,13 +70,22 @@ export default function Page() {
       baseTime,
     };
 
-    setEta(totalETA);
+    return totalETA;
+  };
 
-    const routeLabel = `${start} ➝ ${end} [${traffic}]`;
-    const updatedRoutes = [
-      routeLabel,
-      ...storedRoutes.filter((r) => r !== routeLabel),
-    ].slice(0, 10);
+  const calculateETA = () => {
+    const locations = [startLocation, ...stops.filter(s => s.trim() !== ""), destination].map(s => s.trim()).filter(Boolean);
+    if (locations.length < 2) return;
+
+    let total = 0;
+    for (let i = 0; i < locations.length - 1; i++) {
+      total += calculateLegETA(locations[i], locations[i + 1]);
+    }
+
+    setEta(total);
+
+    const routeLabel = `${locations.join(" ➝ ")} [${traffic}]`;
+    const updatedRoutes = [routeLabel, ...storedRoutes.filter(r => r !== routeLabel)].slice(0, 10);
     setStoredRoutes(updatedRoutes);
     localStorage.setItem("plannedRoutes", JSON.stringify(updatedRoutes));
   };
@@ -103,37 +103,57 @@ export default function Page() {
       >
         <ArrowLeft className="w-5 h-5 mr-2" />
       </button>
+
       <h1 className="text-2xl font-bold text-gray-800">
-        Define Multi-Stop Route
+        Define Route
       </h1>
 
-      <section className="pt-2">
+      <section className="pt-2 w-full">
         <div className="grid grid-cols-1 gap-4">
-          <label className="text-sm font-medium text-gray-700">
-            Starting Location
-          </label>
+          <label className="text-sm font-medium text-gray-700">Starting Location</label>
           <input
             type="text"
-            placeholder="Enter starting location"
             className="input"
+            placeholder="Enter starting location"
             value={startLocation}
             onChange={(e) => setStartLocation(e.target.value)}
           />
 
-          <label className="text-sm font-medium text-gray-700">
-            Destination
-          </label>
+          <label className="text-sm font-medium text-gray-700">Stops</label>
+          {stops.map((stop, index) => (
+            <div key={index} className="flex gap-2 items-center">
+              <input
+                type="text"
+                className="input flex-grow"
+                placeholder={`Stop ${index + 1}`}
+                value={stop}
+                onChange={(e) => handleStopChange(index, e.target.value)}
+              />
+              <button
+                className="text-red-500"
+                onClick={() => removeStop(index)}
+              >
+                <Trash className="w-4 h-4" />
+              </button>
+            </div>
+          ))}
+          <button
+            onClick={addStop}
+            className="text-blue-600 text-sm flex items-center gap-1 self-start"
+          >
+            <Plus className="w-4 h-4" /> Add Stop
+          </button>
+
+          <label className="text-sm font-medium text-gray-700">Destination</label>
           <input
             type="text"
-            placeholder="Enter destination"
             className="input"
+            placeholder="Enter destination"
             value={destination}
             onChange={(e) => setDestination(e.target.value)}
           />
 
-          <label className="text-sm font-medium text-gray-700">
-            Traffic Intensity
-          </label>
+          <label className="text-sm font-medium text-gray-700">Traffic Intensity</label>
           <select
             value={traffic}
             onChange={(e) => setTraffic(e.target.value)}
@@ -153,7 +173,7 @@ export default function Page() {
 
           {eta !== null && (
             <div className="text-green-700 font-semibold text-center">
-              Estimated Time of Arrival: {eta} minutes
+              Estimated Total Travel Time: {eta} minutes
             </div>
           )}
         </div>
@@ -169,7 +189,7 @@ export default function Page() {
           </ul>
           <button
             onClick={clearRoutes}
-            className="text-red-500 text-sm mt-2 underline hover:text-red-700"
+            className="bg-red-500 text-sm mt-2 underline hover:bg-red-700 mb-20"
           >
             Clear Stored Routes
           </button>
