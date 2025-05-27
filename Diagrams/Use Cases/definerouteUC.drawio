@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Página-1" id="3hwwomjhHZCeCZmE392X">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-1" value="User" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="124" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="420" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-3" value="Input Starting Point" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="210" y="124" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-4" value="&lt;b&gt;MyWaze System&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-5" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pta2lRaMyoTjO6lxzBkQ-1" target="pta2lRaMyoTjO6lxzBkQ-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="174" as="sourcePoint" />
+            <mxPoint x="240" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-6" value="Query DB" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="124" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pta2lRaMyoTjO6lxzBkQ-3" target="pta2lRaMyoTjO6lxzBkQ-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="99" as="sourcePoint" />
+            <mxPoint x="510" y="124" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-8" value="Input&lt;br&gt;&amp;nbsp;Destination" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="210" y="204" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-9" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pta2lRaMyoTjO6lxzBkQ-1" target="pta2lRaMyoTjO6lxzBkQ-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="174" as="sourcePoint" />
+            <mxPoint x="240" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-10" value="Query DB" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="pta2lRaMyoTjO6lxzBkQ-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="225" as="sourcePoint" />
+            <mxPoint x="510" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-14" value="Start Route" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="210" y="276" width="100" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="pta2lRaMyoTjO6lxzBkQ-15" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="pta2lRaMyoTjO6lxzBkQ-14" source="pta2lRaMyoTjO6lxzBkQ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="224" as="sourcePoint" />
+            <mxPoint x="240" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
