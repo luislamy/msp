@@ -1,0 +1,453 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.1.1">
+  <diagram name="Página-1" id="LtY2CttgOKU4-wEas4AG">
+    <mxGraphModel dx="2864" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;My waze&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;Id = &quot;MAIN-1&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;text = &quot;The system shall integrate all core navigation and user features into a unified platform, ensuring overall consistency, quality, and adherence to non-functional requirements across the application.&quot;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Time on foot to destination&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;Id = &quot;TOF-1&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;text = &quot;The system shall calculate the estimated time to reach a destination on foot based on the user’s current location, walking speed, and the distance to the destination.&quot;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="280" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Alert Speed limit violation&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;Id = &quot;SPD-1&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;text = &quot;The system shall alert the user if his speed is higher than the speed limit&quot;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Map personalization&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;Id = &quot;MAP-1&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;text = &quot;The system shall allow the user to personalize their map appearance by changing its theme and colors. &quot;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-49" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="480" width="290" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-50" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-49">
+          <mxGeometry width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-51" value="POI Discovery" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-49">
+          <mxGeometry y="16" width="290" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-52" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-49">
+          <mxGeometry y="34" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-53" value="Id=&quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;POI-REQ-1.0&lt;/span&gt;&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-49">
+          <mxGeometry y="42" width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-54" value="text=&quot;The system shall allow users to discover and interact with nearby Points of Interest&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-49">
+          <mxGeometry y="58" width="290" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-55" value="" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-49">
+          <mxGeometry y="100" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-56" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="290" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-57" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-56">
+          <mxGeometry width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-58" value="&lt;b&gt;Carpooling Support&lt;/b&gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-56">
+          <mxGeometry y="16" width="290" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-59" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-56">
+          <mxGeometry y="34" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-60" value="Id=&quot;POOL-&lt;span style=&quot;background-color: transparent;&quot;&gt;REQ-1.0&lt;/span&gt;&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-56">
+          <mxGeometry y="42" width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-61" value="text=&quot;The system shall support the Carpooling feature&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-56">
+          <mxGeometry y="58" width="290" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-62" value="" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-56">
+          <mxGeometry y="90" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-63" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="290" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-64" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-63">
+          <mxGeometry width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-65" value="Register Account" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-63">
+          <mxGeometry y="16" width="290" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-66" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-63">
+          <mxGeometry y="34" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-67" value="Id=&quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;ACC-REQ-1.0&lt;/span&gt;&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-63">
+          <mxGeometry y="42" width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-68" value="text=&quot;The system shall allow users to register an account&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-63">
+          <mxGeometry y="58" width="290" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-69" value="" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-63">
+          <mxGeometry y="90" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-70" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Music Integration&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;DR1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-2a9801a0-7fff-4f0c-7176-f9042768ee36&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall enable the user to play music while driving.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="680" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-71" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Voice Guided Notification&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;VGN1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-2a9801a0-7fff-4f0c-7176-f9042768ee36&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall provide  audio instructions to the user during navigation.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-72" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Define Route&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;DR1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-2a9801a0-7fff-4f0c-7176-f9042768ee36&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall allow the user to program a route.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="680" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-73" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Program Multi-Stop Route&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;MSR-1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-2a9801a0-7fff-4f0c-7176-f9042768ee36&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall allow the user to program a route that includes multiple stops.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="280" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-74" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Register Vehicle Type&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;RVT-1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-77a61280-7fff-54f6-0882-7d69787c15c0&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;The system shall allow the user to register the type of vehicle they are driving.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="483" width="290" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-75" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;User-Reported Incidents&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;URI-1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;&lt;span id=&quot;docs-internal-guid-d911a3a4-7fff-c349-394f-7dc3954f3160&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot;&gt;The system shall allow users to report incidents in real-time.&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="680" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-76" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="880" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-77" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-76">
+          <mxGeometry width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-78" value="Alternative Route Suggestion" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-76">
+          <mxGeometry y="16" width="290" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-79" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-76">
+          <mxGeometry y="34" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-80" value="Id=&quot;ALT-1&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-76">
+          <mxGeometry y="42" width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-81" value="text=&quot;The system shall suggest alternative routes to the user based on real-time traffic conditions and user preferences.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-76">
+          <mxGeometry y="58" width="290" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-82" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="880" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-83" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-82">
+          <mxGeometry width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-84" value="ETA" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-82">
+          <mxGeometry y="16" width="290" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-85" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-82">
+          <mxGeometry y="34" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-86" value="Id=&quot;ETA-1&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-82">
+          <mxGeometry y="42" width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-87" value="text=&quot;The system shall calculate and present estimated time of arrival (ETA) based on real-time traffic data, distance to destination and vehicle data.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-82">
+          <mxGeometry y="58" width="290" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-88" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="880" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-89" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-88">
+          <mxGeometry width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-90" value="Notification Event" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-88">
+          <mxGeometry y="16" width="290" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-91" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-88">
+          <mxGeometry y="34" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-92" value="Id=&quot;NOTIF-1&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-88">
+          <mxGeometry y="42" width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-93" value="text=&quot;The system shall notify the user about incoming or outgoing events such as heavy rains, road closures, sport events, etc.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-88">
+          <mxGeometry y="58" width="290" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-95" value="" style="rounded=0;html=1;labelBackgroundColor=none;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=sysMLPackCont;startSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Foem2ckuOCBFzFy6ABrT-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="200" as="sourcePoint" />
+            <mxPoint x="890" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-96" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Foem2ckuOCBFzFy6ABrT-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="490" as="sourcePoint" />
+            <mxPoint x="640" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="240" />
+              <mxPoint x="640" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-97" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="280" as="sourcePoint" />
+            <mxPoint x="640" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="240" />
+              <mxPoint x="640" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-98" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="240" as="sourcePoint" />
+            <mxPoint x="830" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-100" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="840" as="sourcePoint" />
+            <mxPoint x="640" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-102" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="440" as="sourcePoint" />
+            <mxPoint x="1160" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-103" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="640" as="sourcePoint" />
+            <mxPoint x="1150" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-104" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="840" as="sourcePoint" />
+            <mxPoint x="1040" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-105" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="680" as="sourcePoint" />
+            <mxPoint x="120" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-106" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="680" as="sourcePoint" />
+            <mxPoint x="470" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-107" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Foem2ckuOCBFzFy6ABrT-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="483" as="sourcePoint" />
+            <mxPoint x="465" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-108" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="480" as="sourcePoint" />
+            <mxPoint x="120" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-109" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="827" y="480" as="sourcePoint" />
+            <mxPoint x="827" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-110" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="480" as="sourcePoint" />
+            <mxPoint x="1160" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-111" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="680" as="sourcePoint" />
+            <mxPoint x="1150" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-112" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="827" y="680" as="sourcePoint" />
+            <mxPoint x="827" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-113" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="880" as="sourcePoint" />
+            <mxPoint x="1040" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-114" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="880" as="sourcePoint" />
+            <mxPoint x="640" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-115" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="880" as="sourcePoint" />
+            <mxPoint x="320" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-116" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Reliabilty&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR3&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system should have voice guidance available practically throughout the entire navigation.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-117" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Usability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR5&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall be easy to use.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-118" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;Performance&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR4&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall support at least &lt;span style=&quot;&quot; data-end=&quot;2237&quot; data-start=&quot;2221&quot;&gt;20 languages&lt;/span&gt; with localized measurements.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="554" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-119" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Availability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR2&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system should have voice guidance available practically throughout the entire navigation.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-120" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Security&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR1&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall provide security to the users.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-121" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Maintainability&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR6&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Facilitates ease of updates, bug fixes, and long-term system enhancements.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="965" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-122" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Scalability&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR7&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;Supports system growth and increased user load without degradation.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-123" value="" style="rounded=0;html=1;labelBackgroundColor=none;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=sysMLPackCont;startSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Foem2ckuOCBFzFy6ABrT-1" target="Foem2ckuOCBFzFy6ABrT-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="50" as="sourcePoint" />
+            <mxPoint x="1270" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-124" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Foem2ckuOCBFzFy6ABrT-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="644" y="70" as="sourcePoint" />
+            <mxPoint x="750" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-125" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Foem2ckuOCBFzFy6ABrT-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="40" as="sourcePoint" />
+            <mxPoint x="640" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-126" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="40" as="sourcePoint" />
+            <mxPoint x="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-127" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="40" as="sourcePoint" />
+            <mxPoint x="650" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-128" value="" style="endArrow=none;html=1;rounded=0;entryX=0.554;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Foem2ckuOCBFzFy6ABrT-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="40" as="sourcePoint" />
+            <mxPoint x="240" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-129" value="" style="endArrow=none;html=1;rounded=0;entryX=0.554;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.76" y="41" as="sourcePoint" />
+            <mxPoint x="239.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-130" value="" style="endArrow=none;html=1;rounded=0;entryX=0.554;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.76" y="41" as="sourcePoint" />
+            <mxPoint x="439.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-131" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="280" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-132" value="&amp;lt;&amp;lt;NF requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-131">
+          <mxGeometry width="170" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-133" value="Accuracy" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-131">
+          <mxGeometry y="16" width="170" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-134" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-131">
+          <mxGeometry y="34" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-135" value="Id=&quot;NFR8&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-131">
+          <mxGeometry y="42" width="170" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-136" value="text=&quot;The system shall provide accuracy in time and location estimations for features like ETA and Time on Foot.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-131">
+          <mxGeometry y="58" width="170" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;exitX=0.998;exitY=-0.065;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Foem2ckuOCBFzFy6ABrT-136" target="Foem2ckuOCBFzFy6ABrT-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="345" />
+            </Array>
+            <mxPoint x="-50" y="290" as="sourcePoint" />
+            <mxPoint x="-170" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-138" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;Compatibility&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR9&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall support several music apps at lauch.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="680" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="760" />
+            </Array>
+            <mxPoint x="-100" y="760" as="sourcePoint" />
+            <mxPoint x="-10" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-140" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Flexibility&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-11&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall enable flexibility in route planning, such as multi-stop route configurations.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-142" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.004;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=circlePlus;startFill=0;" edge="1" parent="1" source="Foem2ckuOCBFzFy6ABrT-73" target="Foem2ckuOCBFzFy6ABrT-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="460" as="sourcePoint" />
+            <mxPoint x="1230" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-143" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Adaptability&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR10&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall demonstrate adaptability, dynamically adjusting routes based on real-time data.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="880" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=circlePlus;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="944.71" />
+            </Array>
+            <mxPoint x="100" y="944.71" as="sourcePoint" />
+            <mxPoint x="190" y="944.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-145" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Customization&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-12&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall allow customization for user-specific preferences, like vehicle type registration.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="478" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-146" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.004;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=circlePlus;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1291" y="546.5" as="sourcePoint" />
+            <mxPoint x="1390" y="545.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-147" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1060" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-148" value="&amp;lt;&amp;lt;NF requirement&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingTop=3;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-147">
+          <mxGeometry width="170" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-149" value="Accuracy" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-147">
+          <mxGeometry y="16" width="170" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-150" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-147">
+          <mxGeometry y="34" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-151" value="Id=&quot;NFR8&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-147">
+          <mxGeometry y="42" width="170" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-152" value="text=&quot;The system shall provide accuracy in time and location estimations for features like ETA and Time on Foot.&quot;" style="html=1;align=left;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;spacingLeft=10;" vertex="1" parent="Foem2ckuOCBFzFy6ABrT-147">
+          <mxGeometry y="58" width="170" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-153" value="" style="endArrow=circlePlus;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endFill=0;" edge="1" parent="1" source="Foem2ckuOCBFzFy6ABrT-148" target="Foem2ckuOCBFzFy6ABrT-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="910" as="sourcePoint" />
+            <mxPoint x="700" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-154" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Timeliness&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Id=&quot;NFR-13&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;text=&quot;The system shall ensure timeliness by promptly delivering alerts and notifications.&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="880" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Foem2ckuOCBFzFy6ABrT-155" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.004;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=circlePlus;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="940.41" as="sourcePoint" />
+            <mxPoint x="1239" y="939.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
